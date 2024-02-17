@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.update {
+  background-image: url(../../assets/update-svgrepo-com.svg);
+  background-size: contain;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 40px;
+  background-repeat: no-repeat;
+}

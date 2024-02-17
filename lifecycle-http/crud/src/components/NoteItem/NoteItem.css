@@ -1,0 +1,29 @@
+.note-container {
+    width: 250px;
+    height: max-content;
+    min-height: 200px;
+    border: 1px solid black;
+    position: relative;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
+}
+
+.note-content {
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+
+.delete {
+    background-image: url(../../assets/cross-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    padding: 8px; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}

@@ -1,0 +1,31 @@
+.new-note {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: max-content;
+
+}
+
+.form-input {
+    min-width: 300px;
+    min-height: 100px;
+}
+
+.note-form {
+    margin-top: 5%;
+}
+.button-send {
+    background-image: url(../../assets/arrow-sm-right-svgrepo-com.svg);
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    padding: 0;
+}
