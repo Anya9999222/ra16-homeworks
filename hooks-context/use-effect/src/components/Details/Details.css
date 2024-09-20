@@ -1,0 +1,21 @@
+.info {
+    border-top: 1px solid rgb(188, 188, 188);
+    height: 30px;
+}
+
+.img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.info-container {
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info:first-of-type {
+    height: 50px;
+    padding-top: 8%;
+    border-top: none;
+}

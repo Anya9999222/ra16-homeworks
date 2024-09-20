@@ -1,0 +1,11 @@
+.list-item {
+    border: 2px solid rgb(188, 188, 188);
+    cursor: pointer;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.active {
+    background-color: rgb(36, 36, 247);
+    color: white;
+}
